@@ -67,10 +67,9 @@ static class edge {
 //        queue.add(15);
 //        queue.add(5);
 //        System.out.println(Objects.requireNonNull(queue.poll()).intValue());
-        List<Integer> list=new ArrayList<>();
-        list.add(1);
-        list.add(2);
-        list.set(1,100);
-        System.out.println(list);
+        long s=0;
+        for(int i=0;i<100000;i++)
+            s+=1000000;
+        System.out.println(s);
     }
 }
